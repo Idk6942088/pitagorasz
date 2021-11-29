@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body class="bg-info">
+    <div class="container bg-white my-4 p-2">
+        <h1 class="text-info text-center">A Pitagorasz-tétel és bizonyítása</h1>
+
+        <nav class="navbar navbar-expand-lg bg-info my-1 ml-2 mr-2">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link mt-2 mr-2 mb-2 font-weight-bold text-dark border rounded text-center bg-white" href="https://matekarcok.hu/pitagorasz/">Pithagoraszról</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-2 mr-2 mb-2 font-weight-bold text-dark border rounded text-center bg-white" href="https://hupdfs.com/dokumentum/937246c/pitagorasz-t%C3%A9tel-alkalmaz%C3%A1sa-gyakorlati-probl%C3%A9m%C3%A1kban">A tétel gyakorlati alkalmazása</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mt-2 mr-2 mb-2 font-weight-bold text-dark border rounded text-center bg-white" href="https://wm-iskola.hu/sites/all/files/prints/wm_j1j_matek_9_pitagorasz_feladatok_1.pdf">Feladatok</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="row border rounded border-info ml-2 mr-2 mt-2 mb-2">
+            <div class="col-md-12 p-2 text-justify">
+                <h2 class="text-info">A derékszögű háromszög</h2>
+                <p>Ha egy háromszögről azt mondjuk, hogy derékszögű, akkor ezzel egy adatát megadtuk. A háromszög meghatározásához ezenkívül már csak két további adatra van szükségünk.</p>
+                <p>A derékszögű háromszög oldalai között az általános háromszögre vonatkozó már említett tulajdonságon túl még szorosabb kapcsolat van. A közöttük levő összefüggést Pitagorasz-tételnek nevezzük. A korábbi években már megismertük ezt a tételt.</p>
+            </div>
+        </div>
+        <div class="row border rounded border-info ml-2 mr-2 mt-2 mb-2">
+            <div class="col-md-9 p-2 text-justify">
+                <h2 class="text-info">A Pitagorasz-tétel</h2>
+                <p>Derékszögű háromszögben a két befogó négyzetének összege egyenlő az átfogó négyzetével. (A befogó négyzetén, az átfogó négyzetén a megfelelő szakaszhosszak négyzetét értjük.)</p>
+            </div>
+            <div class="col-md-3">
+                <img class="img-fluid" src="abra1.jpg" alt="kep1">
+            </div>
+        </div>
+        <div class="row border rounded border-info ml-2 mr-2 mt-2 mb-2">
+            <div class="col-md-12 p-2 text-justify">
+            <h2 class="text-info">A Pitagorasz-tétel bizonyítás</h2>
+            <p>A Pitagorasz-tételnek egyik egyszerű bizonyítási módja az, amelynek alapgondolata: egyenlő területekből azonos nagyságú területeket elvéve, a maradék területek is egyenlő nagyságúak.</p>
+            </div>
+            <div class="col-md-8 p-2 text-justify">
+                <ul>
+                    <li>Vegyünk két négyzetet, mindkettő oldalhossza legyen a + b. Ezeket bontsuk részekre az ábrán látható módon.</li>
+                    <li>A felső négyzetet gondolatban feldaraboltuk négy darab olyan derékszögű háromszögre, amelyek befogói a és b. Ezek azonos méretűek. Az átfogójuk is azonos hosszúságú, jelöljük c-vel. Ezenkívül két négyzetet kaptunk, az egyik a2, a másik b2 területű.</li>
+                    <li>Az előző "nagy" négyzettel azonos területű alsó négyzetet öt részre daraboltuk. Ebből négy olyan derékszögű háromszög, amilyent az előző felbontásnál kaptunk. Befogóik a és b, átfogójuk c.</li>
+                    <li>Ha mindkét "nagy" négyzetből elvesszük a minden méretében azonos (csak más helyzetű) négy-négy derékszögű háromszöget, akkor a maradék területeknek is egyenlőknek kell lenniük.</li>
+                    <li>A felső "nagy" négyzetből két "kis" négyzet marad, ezek együttes területe a2 + b2.</li>
+                    <li>Az alsó "nagy" négyzetből marad a középső négyszög. Ennek minden oldala c. Minden szöge 90°, mert (például) az AB oldal P pontjánál lévő nagyságát megkapjuk, ha az egyenesszögből elvesszük a derékszögű háromszög két hegyesszögének összegét, azaz 90°-ot. Mivel a négyszög minden oldala egyenlő és minden szöge 90°, a maradék négyszög is négyzet. Területe c2.</li>
+                    <li>A kétféle módon kapott maradékterületek egyenlő nagyságúak.
+                        Ezért a2 + b2 = c2.</li>
+                </ul>
+
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid m-2 ml-5" src="abra2.jpg" alt="kep2">
+                <img class="img-fluid m-2 ml-5 " src="abra3.jpg" alt="kep3">
+
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
